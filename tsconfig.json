@@ -1,0 +1,49 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "dist",
+    "alwaysStrict": false,
+    "declaration": true,
+    "declarationMap": false,
+    "downlevelIteration": true,
+    "importHelpers": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable",
+      "scripthost"
+    ],
+    "target": "esnext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "jsx": "preserve",
+    "noEmitHelpers": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": false,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "pretty": true,
+    "sourceMap": false,
+    "strict": true,
+    "strictBindCallApply": false,
+    "allowSyntheticDefaultImports": true,
+    "noErrorTruncation": true,
+    "experimentalDecorators": true,
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    },
+    "types": [
+      "node"
+    ]
+  },
+  "include": [
+    "src/**/*.ts",
+  ]
+}

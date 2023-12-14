@@ -1,0 +1,21 @@
+{
+  "name": "rspack-demo",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "rspack build -c ./rspack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rspack/cli": "^0.4.3",
+    "@rspack/core": "^0.4.3",
+    "@rspack/plugin-node-polyfill": "^0.4.3",
+    "@types/node": "^20.10.4",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "lodash-es": "^4.17.21"
+  }
+}
