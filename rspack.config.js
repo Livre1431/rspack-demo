@@ -63,13 +63,12 @@ module.exports = {
     crossOriginLoading: 'anonymous',
   },
   resolve: {
-    extensions: ['.ts', '.js', '.mjs', '.html', '.svelte'],
+    extensions: ['.ts', '.js', '.mjs', '.html'],
     alias: {
       '@': path.resolve(__dirname, './src'),
     },
     modules: ['node_modules', 'src'],
-    conditionNames: ['svelte'],
-    mainFields: ['svelte', 'browser', 'module', 'main'],
+    mainFields: ['browser', 'module', 'main'],
     preferRelative: true,
   },
   optimization: {
